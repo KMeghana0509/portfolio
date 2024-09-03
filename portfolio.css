@@ -43,17 +43,18 @@ body{
     font-size: 30px;
     display: inline;
 }
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 .ccc img{
-    width: 70px;
-    display: inline;
+    width: 100px;
     border: 2px solid gray;
     border-radius: 50%;
 }
 .cccc{
-    display: inline;
-    margin-left: 90px;
-    position: absolute;
-    bottom: 180px;
+    align-content: center;
 }
 .d{
     background-color: white;
@@ -114,6 +115,9 @@ table,th,td{
     margin-top: 10px;
     width: 75%;
     padding: 10px;
+}
+.ff{
+    font-size: 30px;
 }
 input[id="text"]{
     height: 30px;
